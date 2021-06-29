@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href="{{url_for('static',filename='styles/styles.css')}}"/>
+    <link rel='stylesheet' href="{{url_for('static',filename='styles/bootstrap.min.css')}}"/>
+    <link rel='icon' href="{{url_for('static',filename='images/intellx/purple.png')}}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{var["title"]}} | aaditya rengarajan</title>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand"><img src="{{url_for('static',filename='images/aadityarengarajan/black-transparent.png')}}" style="pointer-events: none;width:250px;"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="{{url_for('about')}}">about</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            work
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="{{url_for('work_programming')}}">programming</a></li>
+            <li><a class="dropdown-item" href="{{url_for('work_music')}}">music</a></li>
+            <li><a class="dropdown-item" href="{{url_for('work_aviation')}}">aviation</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{url_for('hire')}}">hire me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="container tech-slideshow" style="height:90vh">
+      <div class="row" id="content">
+
+
+{% if var['title']=='work/aviation'%}
+                           Loading Aviation Logbook Details (Please Wait Up To One Minute)....
+                           <script> fetch('https://api.intellx.co.in/aadityarengarajan/threads') .then((res) => res.text()) .then((text) => { const element = document.getElementById('content'); element.innerHTML = text; }) </script>
+                        {% else %}
+
+
+
+{% for project in var["projects"] %}
+        <div class="card">
+ {% if var['title']=='work/programming' %} <img src="https://bwipjs-api.metafloor.com/?bcid=code128&text={{project['code']}}&includetext" class="card-img-top" alt="barcode for {{project['name']}}" style="width:50%;padding-top: 5px;margin-left: 25%;position:relative;">{% else %}<img src="{{project['image']}}" class="card-img-top" alt="image for {{project['name']}}" style="width:50%;padding-top: 5px;margin-left: 25%;position:relative;">{% endif %}
+  <div class="card-body">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#programming-modal-{{ loop.index }}" style="width:50%;padding-top: 5px;margin-left: 25%;position:relative;">{% if var['title']=='work/programming' %}{{project["name"]}}{% else %}{{project["full_name"]}}{% endif %}
+    </button>
+  </div>
+</div>
+<div class="modal fade" id="programming-modal-{{ loop.index }}">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{project["name"]}}</h5>&nbsp;<p><b>{% if var['title']=='work/programming' %}(CODE : {{project["code"]}}){% else %}(DATE : {{project["date"]}}){% endif %}</b></p>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {{project["description"] | safe}}
+        {% if var['title']=='work/programming' %}
+        <hr/>
+        <b>CREATED : {{project["created"]}}</b><br/>
+        <b>STATUS : {% if project["completed"]=="true" %}COMPLETE{% else %}WORK IN PROGRESS{% endif %}</b><br/>
+        {% if project["modules"]|length > 1 %}
+        <b>BASE : PYTHON</b><br/>
+        <b>MODULES USED ({{project["modules"]|length}}) : {{', '.join(project["modules"])}}</b><br/>
+        {% endif %}
+        {% endif %}
+        <hr/>
+        {% if var['title']=='work/programming' %} <img src="https://bwipjs-api.metafloor.com/?bcid=code128&text={{project['code']}}&includetext" class="card-img-top" alt="barcode for {{project['name']}}" style="width:50%;padding-top: 5px;margin-left: 25%;position:relative;">{% else %}<img src="{{project['image']}}" class="card-img-top" alt="image for {{project['name']}}" style="width:50%;padding-top: 5px;margin-left: 25%;position:relative;">{% endif %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        {% if var['title']=='work/programming' %}
+        {% if project["hosting"]["hosted"] == "true" %}
+        <a href="{{project['hosting']['protocol'] | lower}}://{{project['hosting']['url']}}" target="_blank" class="btn btn-primary">Visit Hosted Project</a>
+        {% endif %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+{% endif %}
+
+      </div>
+
+    </div>
+            <div class="card projects-summary">
+  <div class="card-body">
+     <h5 class="card-text" style="font-family: 'Canela'!important;">{% if var['title']=='work/programming' %}i proudly have worked on {{var["projects"]|length}} projects throughout my history, and have {{var["month"]}} projects this month.{% else %}<img src="https://icrew.gcc-va.com/lib/signatures/GCC0149.png"/><img src="https://icrew.sim2flightdeck.com/lib/signatures/S2F208.png"/>{% endif %}</h5>
+  </div>
+</div>
+
+<footer class="footer-area footer--light">
+  <div class="footer-big">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h3 class="footer-widget-title">fonts+attributions</h3>
+              <ul style="list-style-type: none; ">
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://getbootstrap.com/" target="_blank">Bootstrap CSS + JS</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://commercialtype.com/catalog/canela/canela#:~:text=Canela%20is%20a%20graceful%20display,with%20roots%20in%20the%20classical." target="_blank">Canela Typeface</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://fonts.adobe.com/fonts/satisfy">Satisfy Typeface</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h3 class="footer-widget-title">links</h3>
+              <ul style="list-style-type: none; ">
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://github.com/aadityarengarajan" target="_blank">github</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://www.instagram.com/aadityarengarajan/" target="_blank">instagram</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="mailto:aaditya@intellx.co.in">email</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://discord.com/users/829140024976867379">discord</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h3 class="footer-widget-title">&#169; aaditya rengarajan {{ now.year }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="{{url_for('static',filename='scripts/jquery.min.js')}}"></script>
+  <script>
+    $(document).on('show.bs.modal', '.modal', function () {
+  $(this).appendTo('body');
+});
+</script>
+  <script src="{{url_for('static',filename='scripts/scripts.js')}}"></script>
+  <script src="{{url_for('static',filename='scripts/bootstrap.bundle.min.js')}}"></script>
+  </body>
+</html>

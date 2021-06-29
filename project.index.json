@@ -1,0 +1,14 @@
+{
+    "name": "aadityarengarajan rebooted",
+    "description": "New Self Web Portfolio Web Application",
+    "created": "13/07/2021",
+    "completed": "true",
+    "modules": [
+        "flask",
+        "requests"
+    ],
+    "hosting": {
+        "hosted": "false"
+    },
+    "code": "AA-13072021-030658"
+}

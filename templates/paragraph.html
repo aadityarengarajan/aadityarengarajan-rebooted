@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href="{{url_for('static',filename='styles/styles.css')}}"/>
+    <link rel='stylesheet' href="{{url_for('static',filename='styles/bootstrap.min.css')}}"/>
+    <link rel='icon' href="{{url_for('static',filename='images/intellx/purple.png')}}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{var["title"]}} | aaditya rengarajan</title>
+  </head>
+  <body>
+ <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand"><img src="{{url_for('static',filename='images/aadityarengarajan/black-transparent.png')}}" style="pointer-events: none;width:250px;"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="{{url_for('about')}}">about</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            work
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="{{url_for('work_programming')}}">programming</a></li>
+            <li><a class="dropdown-item" href="{{url_for('work_music')}}">music</a></li>
+            <li><a class="dropdown-item" href="{{url_for('work_aviation')}}">aviation</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{url_for('hire')}}">hire me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="container paragraph-alignment" style="height:100vh">
+      <div class="row" style="padding-top: 50px;">
+        <div class="col-6">
+        </div>
+        <div class="col-6">
+          <h1>{{var["paragraph"]["title"] | lower}}</h1>
+        </div>
+      </div>
+      <div class="row" style="padding-top: 35px;">
+        <div class="col-6">
+        </div>
+        <div class="col-6">
+          <h5>{{var["paragraph"]["content"].replace("\n","")}}</h5>
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+        </div>
+        <div class="col-6">
+          <a href="{{var['button']['link']}}" class="home-item" target="_blank">
+          <p>{{var["button"]["title"]}}</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-area footer--light">
+  <div class="footer-big">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h3 class="footer-widget-title">fonts+attributions</h3>
+              <ul style="list-style-type: none; ">
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://getbootstrap.com/" target="_blank">Bootstrap CSS + JS</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://commercialtype.com/catalog/canela/canela#:~:text=Canela%20is%20a%20graceful%20display,with%20roots%20in%20the%20classical." target="_blank">Canela Typeface</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://fonts.adobe.com/fonts/satisfy">Satisfy Typeface</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h3 class="footer-widget-title">links</h3>
+              <ul style="list-style-type: none; ">
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://github.com/aadityarengarajan" target="_blank">github</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://www.instagram.com/aadityarengarajan/" target="_blank">instagram</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="mailto:aaditya@intellx.co.in">email</a>
+                </li>
+                <li>
+                  <a style="font-size:100%!important;font-weight: bold;text-decoration: none;" href="https://discord.com/users/829140024976867379">discord</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h3 class="footer-widget-title">&#169; aaditya rengarajan {{ now.year }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="{{url_for('static',filename='scripts/jquery.min.js')}}"></script>
+  <script src="{{url_for('static',filename='scripts/scripts.js')}}"></script>
+  <script src="{{url_for('static',filename='scripts/bootstrap.bundle.min.js')}}"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Satisfy';
+    src: url('hinted-Satisfy-Regular.eot');
+    src: url('hinted-Satisfy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Satisfy-Regular.woff2') format('woff2'),
+        url('hinted-Satisfy-Regular.woff') format('woff'),
+        url('hinted-Satisfy-Regular.ttf') format('truetype'),
+        url('hinted-Satisfy-Regular.svg#Satisfy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

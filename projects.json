@@ -1,0 +1,1105 @@
+[
+    {
+        "name": "Bedouin",
+        "description": "Discord Bot for Silkroad In The Sky VATSIM Event by VATPRC",
+        "created": "23/3/2021",
+        "completed": "true",
+        "modules": [
+            "os"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "BE-23032021-200806"
+    },
+    {
+        "name": "Watermarker",
+        "description": "Batch Watermark Images using Python",
+        "created": "24/03/2021",
+        "completed": "true",
+        "modules": [
+            "os",
+            "sys",
+            "Image"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "WA-24032021-003215"
+    },
+    {
+        "name": "DEEPBLU.",
+        "description": "Official Website",
+        "created": "20/04/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "re",
+            "requests"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "self",
+            "url": "blu.intellx.co.in",
+            "protocol": "HTTPS"
+        },
+        "code": "DE-20042021-212649"
+    },
+    {
+        "name": "Hotel Management",
+        "description": "Custom Project for Complete Hotel Management Suite <b>[SOLD]</b>",
+        "created": "29/3/2021",
+        "completed": "true",
+        "modules": [
+            "os"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "HO-29032021-145332"
+    },
+    {
+        "name": "RTEFinder API",
+        "description": "API Relay to find Flight Routes deployed on Vercel - now deprecated",
+        "created": "21/06/2020",
+        "completed": "true",
+        "modules": [
+            "datetime",
+            "urllib",
+            "BeautifulSoup",
+            "requests",
+            "math",
+            "csv"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "RT-21062020-124121"
+    },
+    {
+        "name": "IntellX API",
+        "description": "API for IntellX Serving EasyFly and for Personal Purposes.",
+        "created": "18/05/2021",
+        "completed": "true",
+        "modules": [
+            "requests",
+            "HTTPBasicAuth",
+            "datetime",
+            "flask",
+            "MIMEMultipart",
+            "MIMEText",
+            "ssl",
+            "smtplib",
+            "re",
+            "json",
+            "requests",
+            "shutil"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "self",
+            "url": "api.intellx.co.in/email",
+            "protocol": "HTTPS"
+        },
+        "code": "IN-18052021-071118"
+    },
+    {
+        "name": "Chart Finder",
+        "description": "Aeronautical Information Publication and Charts Finder for AvBot",
+        "created": "28/1/2021",
+        "completed": "true",
+        "modules": [
+            "requests",
+            "BeautifulSoup"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "CH-28012021-222257"
+    },
+    {
+        "name": "AutoZoom Versions",
+        "description": "v1,v2 of AutoZoom, an App to join Zoom Meetings.",
+        "created": "22/07/2020",
+        "completed": "true",
+        "modules": [
+            "selenium",
+            "time",
+            "webdriver_manager",
+            "easygui",
+            "winsound",
+            "pyautogui",
+            "flask",
+            "speech_recognition",
+            "pyttsx3"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "GitHub",
+            "url" : "github.com/aadityarengarajan/AutoZoomv2",
+            "protocol": "HTTPS"
+        },
+        "code": "AU-22072020-030953"
+    },
+    {
+        "name": "aadityarengarajan",
+        "description": "Self Web Portfolio Web Application",
+        "created": "13/07/2021",
+        "completed": "false",
+        "modules": [
+            "flask",
+            "requests",
+            "json",
+            "datetime",
+            "bs4"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "self",
+            "url": "aaditya.intellx.co.in",
+            "protocol": "HTTPS"
+        },
+        "code": "AA-13072021-030658"
+    },
+    {
+        "name": "iCrew LiveATC",
+        "description": "LiveATC Feed Based on Location from iCrew <b>[PERSONAL USE//DEPRECATED]</b>",
+        "created": "22/12/2020",
+        "completed": "true",
+        "modules": [
+            "requests",
+            "csv",
+            "webbrowser",
+            "time",
+            "os",
+            "bs4",
+            "json",
+            "math"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "IC-22122020-014539"
+    },
+    {
+        "name": "Matchering Test",
+        "description": "A.I Mix and Mastering 'Matchering' test project",
+        "created": "11/8/2020",
+        "completed": "true",
+        "modules": [
+            "matchering"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "MA-11082020-202728"
+    },
+    {
+        "name": "Runway Determiner",
+        "description": "To Find Runway Heading based on Airport Wind Conditions - now deprecated, as it is included in the Discord EasyFly Client.",
+        "created": "04/10/2020",
+        "completed": "true",
+        "modules": [
+            "Flask_Session",
+            "secrets",
+            "flask",
+            "csv"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "RU-04102020-051651"
+    },
+    {
+        "name": "IMS",
+        "description": "SocketIO Project for Learning Purpose.",
+        "created": "22/7/2020",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "flask_socketio"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "IM-22072020-030346"
+    },
+    {
+        "name": "mastr",
+        "description": "Master Links Service for Artists",
+        "created": "27/06/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "requests",
+            "html",
+            "json",
+            "re",
+            "ssl",
+            "smtplib"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "self",
+            "url": "mastr.intellx.co.in",
+            "protocol": "HTTPS"
+        },
+        "code": "MA-27062021-193725"
+    },
+    {
+        "name": "SpotiFork",
+        "description": "WebApp to Fork Spotify Playlists (Currently Inoperative)",
+        "created": "11/9/2020",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "flask_session",
+            "startup",
+            "secrets",
+            "requests",
+            "bs4"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "heroku",
+            "url": "sheltered-eyrie-04789.herokuapp.com",
+            "protocol": "HTTPS"
+        },
+        "code": "SP-11092020-202906"
+    },
+    {
+        "name": "CSV to SQL",
+        "description": "Experimental Project for Learning Purposes.",
+        "created": "17/10/2020",
+        "completed": "true",
+        "modules": [
+            "os",
+            "mysql.connector"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "CS-17102020-091242"
+    },
+    {
+        "name": "CourseSelector",
+        "description": "College Course Selector",
+        "created": "22/04/2021",
+        "completed": "true",
+        "modules": [
+            "pickle",
+            "json"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "CO-22042021-221511"
+    },
+    {
+        "name": "Singapore Virtual Bot",
+        "description": "Discord Bot / Virtual Airlines Official Bot (Deprecated)",
+        "created": "12/04/2021",
+        "completed": "true",
+        "modules": [
+            "discord.ext",
+            "urllib.request",
+            "asyncio",
+            "discord",
+            "traceback",
+            "os",
+            "datetime",
+            "secrets",
+            "requests",
+            "csv",
+            "math",
+            "threading",
+            "shutil",
+            "urllib",
+            "bs4",
+            "pyfiglet",
+            "metar"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "SI-12042021-215954"
+    },
+    {
+        "name": "Modus Operandi",
+        "description": "CrewCentre for Musicians and Bands",
+        "created": "9/3/2021",
+        "completed": "true",
+        "modules": [
+            "os"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "MO-09032021-172106"
+    },
+    {
+        "name": "EquateSol",
+        "description": "Excel Analysis Solution for MFT Employees at EQUATE Petrochemical Company, a multinational company.",
+        "created": "26/06/2020",
+        "completed": "true",
+        "modules": [
+            "uuid",
+            "requests",
+            "flask",
+            "Flask_Session",
+            "msal",
+            "app_config",
+            "shutil",
+            "pandas as pd",
+            "time",
+            "shutil",
+            "subprocess",
+            "datetime",
+            "ctypes",
+            "urllib3",
+            "bs4",
+            "traceback",
+            "ProxyFix",
+            "g,session",
+            "shutil",
+            "pandas as pd",
+            "time",
+            "subprocess",
+            "datetime",
+            "ctypes",
+            "urllib3",
+            "os",
+            "datetime"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "EQ-19042021-172300"
+    },
+    {
+        "name": "Google Newspaper",
+        "description": "NewsPaper generated from Google News",
+        "created": "3/3/2021",
+        "completed": "true",
+        "modules": [
+            "datetime",
+            "webbrowser",
+            "requests",
+            "BeautifulSoup",
+            "random"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "GO-03032021-152151"
+    },
+    {
+        "name": "VATSIM AUTORECON",
+        "description": "To Automatically Reconnect in case xPilot/vPilot disconnects you for low frame rate.",
+        "created": "18/12/2020",
+        "completed": "true",
+        "modules": [
+            "time",
+            "pyautogui",
+            "os"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "VA-18122020-184807"
+    },
+    {
+        "name": "OneStop LMS",
+        "description": "E-Learning Platform for hackathon.",
+        "created": "5/11/2020",
+        "completed": "true",
+        "modules": [
+            "os",
+            "csv",
+            "datetime",
+            "uuid",
+            "requests",
+            "Session",
+            "msal",
+            "app_config",
+            "ProxyFix",
+            "shutil",
+            "flask",
+            "os",
+            "pickle"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "ON-05112020-012825"
+    },
+    {
+        "name": "Altn. Doctor Scheduler",
+        "description": "ML Solution to Doctor Rota Making Problem",
+        "created": "09/06/2020",
+        "completed": "true",
+        "modules": [
+            "datetime",
+            "cycle",
+            "csv",
+            "os"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "AL-09062020-120815"
+    },
+    {
+        "name": "ML Face Swap",
+        "description": "AI/ML Face Swapping Project",
+        "created": "13/01/2020",
+        "completed": "true",
+        "modules": [
+            "docker",
+            "requests",
+            "json",
+            "base64",
+            "cv2",
+            "flask",
+            "flask_limiter",
+            "numpy",
+            "dlib",
+            "scipy",
+            "logging"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "ML-13012020-210236"
+    },
+    {
+        "name": "Doctor Scheduler",
+        "description": "ML Project for Automated Doctor Schedule Creation",
+        "created": "25/06/2020",
+        "completed": "true",
+        "modules": [
+            "__future__",
+            "ortools.sat.python",
+            "os"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "DO-25062020-004132"
+    },
+    {
+        "name": "Google Search",
+        "description": "Automatically opens Google Search for a list of questions fed into system",
+        "created": "7/8/2020",
+        "completed": "true",
+        "modules": [
+            "tkinter",
+            "messagebox",
+            "urllib",
+            "requests",
+            "BeautifulSoup",
+            "speech_recognition",
+            "pyttsx3",
+            "os",
+            "time",
+            "webbrowser"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "GO-07082020-023037"
+    },
+    {
+        "name": "IntellX Assets",
+        "description": "Static Assets for IntellX served by GUnicorn",
+        "created": "01/07/2021",
+        "completed": "true",
+        "modules": [
+            "os"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "self",
+            "url": "assets.intellx.co.in",
+            "protocol": "HTTPS"
+        },
+        "code": "IN-01072021-203957"
+    },
+    {
+        "name": "Question Searcher",
+        "description": "To Google a list of Questions from a TXT file.",
+        "created": "3/7/2020",
+        "completed": "true",
+        "modules": [
+            "os",
+            "webbrowser"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "QU-03072020-143518"
+    },
+    {
+        "name": "OFP API",
+        "description": "API for EasyFly OFP",
+        "created": "08/06/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "requests"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "self",
+            "url": "ofp.intellx.co.in/?fpl=(FPL-OMA671-IS%20-B739/M-SDE1E2E3FGHIJ2J3J4J5M1RWXY/LB1%20-OOMS1420%20-N490F34000%20OOMS%20TULBU%20M628%20LUDID%20UM628%20PEKEM%20Q332%20DEGPA%20Y511%20ASMIS%20T218%20ALPUT%20M309%20VEMEM%20OEJN%20-OEJN1630%20-PBN/A1B1C1D1L1O1S2%20DOF/210712%20REG/OMA671%20EET/OEJN0210%20OPR/OMA%20PER/D%20C/aadityarengarajan%20RMK/TCAS%20GENERATED%20BY%20EASYFLY)&dbcode=4392340",
+            "protocol": "HTTPS"
+        },
+        "code": "OF-08062021-230702"
+    },
+    {
+        "name": "RouteScraper",
+        "description": "Script to Scrape Routes of Airline Companies Overnight",
+        "created": "06/02/2021",
+        "completed": "true",
+        "modules": [
+            "os,sys",
+            "BeautifulSoup",
+            "csv",
+            "random",
+            "math",
+            "time",
+            "urllib",
+            "datetime",
+            "requests"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "RO-06022021-100146"
+    },
+    {
+        "name": "Banking Projects",
+        "description": "Custom Project for Complete Banking System Suite <b>[SOLD]</b>",
+        "created": "15/9/2020",
+        "completed": "true",
+        "modules": [
+            "os",
+            "system"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "BA-15092020-170512"
+    },
+    {
+        "name": "OpenCV Learning",
+        "description": "Face Detection with OpenCV, Learning Project",
+        "created": "24/5/2020",
+        "completed": "true",
+        "modules": [
+            "exceptions",
+            "argparse",
+            "requests",
+            "cv2",
+            "os",
+            "face_recognition",
+            "pickle",
+            "imutils",
+            "pickle",
+            "time",
+            "paths",
+            "VideoStream"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "OP-24052020-222229"
+    },
+    {
+        "name": "POSCON ATIS API",
+        "description": "D-ATIS Scraper for POSCON",
+        "created": "26/05/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "requests"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "PO-26052021-232337"
+    },
+    {
+        "name": "EasyFly (Legacy)",
+        "description": "Experimental OFP Briefing Generator.",
+        "created": "11/11/2020",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "flask_session",
+            "os",
+            "datetime",
+            "secrets",
+            "requests",
+            "csv",
+            "math",
+            "threading",
+            "shutil",
+            "urllib",
+            "bs4",
+            "pyfiglet",
+            "metar"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "EA-11112020-033541"
+    },
+    {
+        "name": "[VATMENA] CTL Airport Entry",
+        "description": "WebApp to register airport for the Cross The Land Event by VATSIM VATMENA",
+        "created": "25/05/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "requests",
+            "json"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "VATMENA",
+            "url": "ctl.vatsim.me",
+            "protocol": "HTTPS"
+        },
+        "code": "VA-25052021-162515"
+    },
+    {
+        "name": "EasyFly WebApp",
+        "description": "WebApp for EasyFly",
+        "created": "12/05/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "requests"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "EA-12052021-050855"
+    },
+    {
+        "name": "VATSIM India",
+        "description": "VATSIM India vACC Web Application on Flask",
+        "created": "03/07/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "requests"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "VA-03072021-142808"
+    },
+    {
+        "name": "Evacuation Planning",
+        "description": "Custom Emergency Evacuation Planning System <b>[SOLD]</b>",
+        "created": "19/10/2020",
+        "completed": "true",
+        "modules": [
+            "pickle",
+            "random",
+            "csv",
+            "os",
+            "datetime"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "EV-19102020-161941"
+    },
+    {
+        "name": "FAIPS Panorama",
+        "description": "Official Website for School Magazine",
+        "created": "13/07/2020",
+        "completed": "true",
+        "modules": [
+            "os"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "github",
+            "url": "faipspanorama.github.io",
+            "protocol": "HTTPS"
+        },
+        "code": "FA-13072020-074931"
+    },
+    {
+        "name": "Airport Gate",
+        "description": "To generate a random real gate number based on Charts from AvBot - Deprecated",
+        "created": "22/07/2020",
+        "completed": "true",
+        "modules": [
+            "os",
+            "random",
+            "requests",
+            "pdf2txt"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "AI-22072020-123124"
+    },
+    {
+        "name": "Simplifi Versions",
+        "description": "v1, v2, v3 of Simplifi, To-Do List/Digital Assistant/Task Manager based on XLSX files.",
+        "created": "22/12/2020",
+        "completed": "true",
+        "modules": [
+            "pandas",
+            "datetime",
+            "webbrowser",
+            "random",
+            "GoogleNews",
+            "jinja2"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "SI-01082020-175533"
+    },
+    {
+        "name": "EasyFly",
+        "description": "Discord Bot / Flight Planner",
+        "created": "12/04/2021",
+        "completed": "true",
+        "modules": [
+            "discord.ext",
+            "urllib.request",
+            "asyncio",
+            "discord",
+            "traceback",
+            "os",
+            "datetime",
+            "secrets",
+            "requests",
+            "csv",
+            "math",
+            "threading",
+            "shutil",
+            "urllib",
+            "bs4",
+            "pyfiglet",
+            "metar"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "self",
+            "url": "easyfly.intellx.co.in",
+            "protocol": "HTTPS"
+        },
+        "code": "EA-12042021-215923"
+    },
+    {
+        "name": "AvBot Chart Scraper",
+        "description": "Uses PDFMiner to find a real gate from a given Airport using charts.avbot.in; Now Deprecated as AvBot stopped providing charts.",
+        "created": "22/07/2020",
+        "completed": "true",
+        "modules": [
+            "os",
+            "random",
+            "requests"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "AV-22072020-221309"
+    },
+    {
+        "name": "Hello Next",
+        "description": "First NExtJS Project using TypeScript",
+        "created": "12/5/2021",
+        "completed": "true",
+        "modules": [
+            "os"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "HE-12052021-205625"
+    },
+    {
+        "name": "Event Booking System",
+        "description": "VATSIM Event Booking System (Generic + VATPRC) <b>(Inoperative as Event has Elapsed)</b>",
+        "created": "6/3/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "email.mime",
+            "bs4",
+            "pyfiglet",
+            "metar",
+            "colormap",
+            "json",
+            "requests",
+            "secrets",
+            "csv",
+            "datetime",
+            "base64",
+            "random",
+            "ssl",
+            "urllib",
+            "smtplib",
+            "html",
+            "math",
+            "extcolors",
+            "discord"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "vatPRC",
+            "url": "silkroad.vatprc.net",
+            "protocol": "HTTPS"
+        },
+        "code": "EV-06032021-122442"
+    },
+    {
+        "name": "Spurt",
+        "description": "Online Shopping Website for E-Commerce Project <b>[Cancelled]</b>",
+        "created": "26/12/2020",
+        "completed": "true",
+        "modules": [
+            "requests",
+            "flask"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "SP-26122020-174055"
+    },
+    {
+        "name": "VATMENA Airport Voting",
+        "description": "Airport Voting System to vote airports for the Cross The Land Event by VATMENA",
+        "created": "26/06/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "requests"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "VATMENA",
+            "url": "ctl.vatsim.me",
+            "protocol": "HTTPS"
+        },
+        "code": "VA-26062021-150623"
+    },
+    {
+        "name": "Whazzup to JSON",
+        "description": "Converting IVAO API's Whazzup feed to JSON",
+        "created": "29/3/2021",
+        "completed": "true",
+        "modules": [
+            "requests",
+            "json"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "WH-29032021-145259"
+    },
+    {
+        "name": "No Strain",
+        "description": "20-20-20 Rule to remind to get off screen. Learning Project.",
+        "created": "3/7/2020",
+        "completed": "true",
+        "modules": [
+            "tkinter",
+            "time",
+            "winsound",
+            "random"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "NO-03072020-152304"
+    },
+    {
+        "name": "GCC VA Bot",
+        "description": "Discord Bot / Virtual Airlines Bot for GCC Virtual Airlines",
+        "created": "12/04/2021",
+        "completed": "true",
+        "modules": [
+            "discord.ext",
+            "urllib.request",
+            "asyncio",
+            "discord",
+            "traceback",
+            "os",
+            "datetime",
+            "secrets",
+            "requests",
+            "csv",
+            "math",
+            "threading",
+            "shutil",
+            "urllib",
+            "bs4",
+            "pyfiglet",
+            "metar"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "GCC VA",
+            "url": "gcc-va.com",
+            "protocol": "HTTPS"
+        },
+        "code": "GC-12042021-215922"
+    },
+    {
+        "name": "IntellX",
+        "description": "Front Page for IntellX.co.in",
+        "created": "01/06/2021",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "smtp"
+        ],
+        "hosting": {
+            "hosted": "true",
+            "host": "vercel",
+            "url": "intellx.co.in",
+            "protocol": "HTTPS"
+        },
+        "code": "IN-01062021-162820"
+    },
+    {
+        "name": "KSA NOTAMs",
+        "description": "Updating KSA NOTAMs for automatically using an API - <b>[Deprecated]</b>",
+        "created": "23/1/2021",
+        "completed": "true",
+        "modules": [
+            "bs4",
+            "requests",
+            "datetime",
+            "os",
+            "time",
+            "jinja2",
+            "gi"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "SA-23012021-153546"
+    },
+    {
+        "name": "ACOSUP",
+        "description": "Automated Code-Out Submission Using Python for High School Assignments",
+        "created": "23/06/2020",
+        "completed": "true",
+        "modules": [
+            "os",
+            "shutil"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "AC-23062020-082528"
+    },
+    {
+        "name": "VB NET Projects",
+        "description": "Archived Legacy EXE Files created in VB.NET",
+        "created": "23/6/2020",
+        "completed": "true",
+        "modules": [
+            "os"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "VB-23062020-201353"
+    },
+    {
+        "name": "State Restore Probability Calculator",
+        "description": "Probability to restore from COVID-19, and escape plan generator (flights out of residing region)",
+        "created": "11/03/2021",
+        "completed": "true",
+        "modules": [
+            "json",
+            "requests",
+            "datetime",
+            "difflib"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "ST-01042021-200658"
+    },
+    {
+        "name": "POSI",
+        "description": "Web Application for Project Open Skies, Inc. - <b>[Inoperative]</b>",
+        "created": "11/03/2021",
+        "completed": "true",
+        "modules": [
+            "re",
+            "requests",
+            "csv",
+            "datetime",
+            "sys",
+            "os",
+            "json",
+            "smtplib",
+            "ssl",
+            "secrets",
+            "email.mime",
+            "bs4",
+            "flask"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "PO-11032021-130006"
+    },
+    {
+        "name": "POS System",
+        "description": "Custom Point of Sales System - <b>[SOLD]</b>",
+        "created": "02/04/2021",
+        "completed": "true",
+        "modules": [
+            "json",
+            "random",
+            "datetime",
+            "os"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "PO-02042021-220354"
+    },
+    {
+        "name": "RouteFinder API",
+        "description": "API to return Flight Routes - Deprecated, Added to IntellX API",
+        "created": "17/12/2020",
+        "completed": "true",
+        "modules": [
+            "flask",
+            "flask_session",
+            "os",
+            "datetime",
+            "secrets",
+            "requests",
+            "csv",
+            "math",
+            "threading",
+            "shutil",
+            "urllib",
+            "bs4",
+            "pyfiglet",
+            "metar"
+        ],
+        "hosting": {
+            "hosted": "false"
+        },
+        "code": "RO-17122020-191244"
+    }
+]

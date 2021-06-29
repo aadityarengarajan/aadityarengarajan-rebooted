@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('hinted-Canela-Regular.eot');
+    src: url('hinted-Canela-Regular.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Canela-Regular.woff2') format('woff2'),
+        url('hinted-Canela-Regular.woff') format('woff'),
+        url('hinted-Canela-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
